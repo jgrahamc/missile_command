@@ -34,3 +34,11 @@ countdown to begin during which the buttons flash (and switching off
 the toggle switch stops the count). Once the countdown expires the
 keyboard emulation sends Alt-L followed by the URL of the CloudFlare
 internal support web site.
+
+Note: this project does not use the [Adafruit Trinket USB
+library](https://github.com/adafruit/Adafruit-Trinket-USB/) because of
+difficulty I had getting it working with the Mac. I substituted the
+[Digispark Keyboard
+library](https://github.com/digistump/DigisparkArduinoIntegration/tree/master/libraries/DigisparkKeyboard)
+which worked well. Further details of this can be found in this
+[thread](http://forums.adafruit.com/viewtopic.php?f=52&t=46422).
